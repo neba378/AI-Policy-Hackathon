@@ -1,22 +1,21 @@
-# Welcome to your Lovable project
+# Policy Sentinel Frontend
 
-## Project info
+**Evidence-Based AI Model Compliance Auditing**
 
-**URL**: https://lovable.dev/projects/514982af-65c0-4cbd-9316-a871daf57181
+## About
 
-## How can I edit this code?
+React + TypeScript frontend for Policy Sentinel - an automated compliance auditing system for AI models.
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- React + TypeScript
+- Vite
+- TailwindCSS + shadcn/ui
+- TanStack Query
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/514982af-65c0-4cbd-9316-a871daf57181) and start prompting.
+## Development
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Clone this repository and install dependencies:
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
