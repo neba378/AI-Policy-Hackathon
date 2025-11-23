@@ -44,7 +44,6 @@ bun.lockb
 
 # Data directories (but keep structure)
 data/chroma_db/
-data/model_docs/*.txt
 
 # Keep directory structure
 !data/model_docs/.gitkeep

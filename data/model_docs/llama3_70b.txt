@@ -1,0 +1,120 @@
+Llama 3 Model Card
+
+Model Summary
+Llama 3 is Meta's third generation large language model, available in 8B and 70B parameter variants. The model is trained on a diverse corpus and optimized for both English and multilingual tasks.
+
+Model Architecture and Training
+Llama 3 uses an optimized transformer decoder architecture with the following specifications:
+- Context length: 8,192 tokens
+- Vocabulary size: 128,000 tokens using byte-pair encoding
+- Training data: Over 15 trillion tokens from publicly available sources
+- Training completed in March 2024
+
+Training Dataset Composition
+The training corpus includes:
+- High-quality web content (crawled 2023-2024)
+- Code from public repositories  
+- Scientific publications and papers
+- Books and digital libraries
+- Multilingual content covering 30+ languages
+
+Data preprocessing included deduplication, quality filtering, and removal of personally identifiable information. No user data from Meta products was used.
+
+Safety Measures
+Safety development included:
+- Supervised fine-tuning on human-annotated safe responses
+- Reinforcement learning from human feedback (RLHF)
+- Red teaming with external security researchers
+- Toxicity reduction techniques
+- Bias mitigation during training
+
+The model refuses to generate illegal, harmful, or explicit content. Refusal mechanisms were tested against 50,000+ adversarial prompts.
+
+Performance Benchmarks
+Llama 3 70B achieves competitive performance:
+- MMLU: 82.0%
+- HumanEval: 81.7%
+- GSM8K (math): 83.0%
+- TriviaQA: 82.8%
+
+The 8B model achieves approximately 65-70% of the 70B model's performance while being significantly faster.
+
+Bias and Fairness Evaluation
+Comprehensive bias testing examined:
+- Gender bias in role assignments
+- Racial and ethnic stereotyping
+- Geographic representation
+- Toxic content generation rates
+
+Results show reduced bias compared to Llama 2, with stereotype associations decreased by 30% through improved training data curation.
+
+Known Limitations
+- May generate factually incorrect information
+- Limited reasoning on complex multi-step problems
+- Knowledge cutoff at training date (March 2024)
+- Potential for bias despite mitigation efforts
+- Not recommended for safety-critical applications without validation
+
+Intended Use
+Llama 3 is designed for:
+- Research and development
+- Chatbots and virtual assistants
+- Content generation
+- Code assistance
+- Educational applications
+
+Not intended for:
+- Medical diagnosis or treatment recommendations
+- Legal advice
+- Financial investment decisions
+- Autonomous decision-making in high-stakes scenarios
+
+Compute Requirements
+The 70B model requires:
+- Multiple GPUs with 80GB VRAM (e.g., 2x A100)
+- Approximately 140GB storage for model weights
+- Inference latency: ~2-3 seconds for typical queries
+
+The 8B model can run on:
+- Single GPU with 16GB+ VRAM
+- Approximately 16GB storage
+- Inference latency: ~500ms for typical queries
+
+License and Availability
+Llama 3 is released under the Llama 3 Community License, allowing:
+- Commercial use with restrictions
+- Modification and fine-tuning
+- Distribution of derivatives with attribution
+
+Restrictions apply for services exceeding 700 million monthly active users.
+
+Evaluation Methodology
+All benchmarks used standardized evaluation protocols:
+- Zero-shot and few-shot settings documented
+- Temperature=0.0 for deterministic results
+- Consistent prompt formats across evaluations
+- No cherry-picking of results
+
+Model Updates and Versioning
+Current version: llama-3-70b-v1.0
+Future updates will address:
+- Improved multilingual capabilities
+- Enhanced reasoning abilities
+- Reduced hallucination rates
+- Better instruction following
+
+Documentation and Support
+Meta provides:
+- Model cards with detailed specifications
+- Research papers describing training methodology
+- GitHub repository with inference code
+- Community forum for developer support
+- Regular updates on model performance and safety
+
+Responsible AI Commitments
+Meta commits to:
+- Transparent documentation of capabilities and limitations
+- Ongoing safety evaluations
+- Collaboration with AI safety researchers
+- Responsive handling of identified issues
+- Regular public reporting on model impacts
