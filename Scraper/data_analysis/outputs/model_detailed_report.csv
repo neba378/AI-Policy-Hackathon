@@ -1,0 +1,8 @@
+Model,Status_mean,Status_sum,Status_count,Confidence_mean,Confidence_min,Confidence_max,Confidence_std
+Claude 4,0.38,3,8,32.44,0.0,86.5,44.77
+Gemini 1 5 Pro,0.38,3,8,32.92,0.0,87.8,45.44
+Gpt 4,0.5,4,8,44.0,0.0,88.0,47.04
+Gpt 4O,0.38,3,8,33.58,0.0,89.6,46.34
+Gpt 5,0.38,3,8,34.16,0.0,91.1,47.15
+Llama 3 1,0.5,4,8,25.25,0.0,50.5,26.99
+O1,0.38,3,8,33.45,0.0,89.2,46.17

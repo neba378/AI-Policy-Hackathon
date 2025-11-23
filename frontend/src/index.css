@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* The Normalized Lab Console - Dark Mode Only Design System */
+    --background: 222 47% 3%;
+    --foreground: 210 40% 98%;
+
+    --card: 217 33% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 217 33% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Primary: Cyan - Performance metrics, active states */
+    --primary: 187 85% 53%;
+    --primary-foreground: 222 47% 3%;
+
+    /* Secondary: Deep gray - Secondary surfaces */
+    --secondary: 217 33% 12%;
+    --secondary-foreground: 210 40% 98%;
+
+    /* Muted: Subtle backgrounds and text */
+    --muted: 217 33% 15%;
+    --muted-foreground: 217 10% 64%;
+
+    /* Accent: Orange - Safety/Risk indicators */
+    --accent: 25 95% 53%;
+    --accent-foreground: 222 47% 3%;
+
+    /* Governance: Indigo */
+    --governance: 239 84% 67%;
+    --governance-foreground: 222 47% 3%;
+
+    /* Destructive: Orange-red for critical warnings */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 15%;
+    --ring: 187 85% 53%;
+
+    --radius: 0.5rem;
+
+    /* Chart colors */
+    --chart-1: 187 85% 53%;
+    --chart-2: 25 95% 53%;
+    --chart-3: 239 84% 67%;
+    --chart-4: 142 76% 36%;
+    --chart-5: 340 82% 52%;
+
+    /* Glow effects */
+    --glow-cyan: 187 85% 53%;
+    --glow-orange: 25 95% 53%;
+    --glow-indigo: 239 84% 67%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Custom scrollbar for dark theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted rounded;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/50;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Glow effects for interactive elements */
+  .glow-cyan {
+    box-shadow: 0 0 20px hsl(var(--glow-cyan) / 0.3);
+  }
+  
+  .glow-orange {
+    box-shadow: 0 0 20px hsl(var(--glow-orange) / 0.3);
+  }
+  
+  .glow-indigo {
+    box-shadow: 0 0 20px hsl(var(--glow-indigo) / 0.3);
+  }
+
+  /* Smooth transitions */
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

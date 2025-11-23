@@ -1,0 +1,9 @@
+Category,Status_mean,Status_sum,Status_count,Confidence_mean,Confidence_min,Confidence_max,Confidence_std
+Capabilities & Use Cases,0.86,6,7,70.67,0.0,91.1,34.31
+Ethical Considerations,0.0,0,7,0.0,0.0,0.0,0.0
+Model Limitations,0.14,1,7,12.57,0.0,88.0,33.26
+Performance Metrics,1.0,7,7,83.21,50.5,91.1,14.5
+Privacy & Data Protection,0.0,0,7,0.0,0.0,0.0,0.0
+Safety & Risk Assessment,0.71,5,7,58.34,0.0,91.1,42.33
+Training Data Documentation,0.43,3,7,32.14,0.0,88.0,41.92
+Usage Policies,0.14,1,7,12.54,0.0,87.8,33.19

@@ -1,0 +1,57 @@
+Company,Model,Category,Category_Key,Status,Confidence,Chunk_Count,Avg_Text_Length,Has_Coverage
+Anthropic,Claude 4,Safety & Risk Assessment,safety,0,0.0,0,0,False
+Anthropic,Claude 4,Performance Metrics,performance,1,86.5,18,823,True
+Anthropic,Claude 4,Training Data Documentation,training,1,86.5,18,823,True
+Anthropic,Claude 4,Model Limitations,limitations,0,0.0,0,0,False
+Anthropic,Claude 4,Capabilities & Use Cases,capabilities,1,86.5,18,823,True
+Anthropic,Claude 4,Usage Policies,usage,0,0.0,0,0,False
+Anthropic,Claude 4,Ethical Considerations,ethics,0,0.0,0,0,False
+Anthropic,Claude 4,Privacy & Data Protection,privacy,0,0.0,0,0,False
+Google,Gemini 1 5 Pro,Safety & Risk Assessment,safety,0,0.0,0,0,False
+Google,Gemini 1 5 Pro,Performance Metrics,performance,1,87.8,25,887,True
+Google,Gemini 1 5 Pro,Training Data Documentation,training,0,0.0,0,0,False
+Google,Gemini 1 5 Pro,Model Limitations,limitations,0,0.0,0,0,False
+Google,Gemini 1 5 Pro,Capabilities & Use Cases,capabilities,1,87.8,25,887,True
+Google,Gemini 1 5 Pro,Usage Policies,usage,1,87.8,25,887,True
+Google,Gemini 1 5 Pro,Ethical Considerations,ethics,0,0.0,0,0,False
+Google,Gemini 1 5 Pro,Privacy & Data Protection,privacy,0,0.0,0,0,False
+Meta,Llama 3 1,Safety & Risk Assessment,safety,1,50.5,1,273,True
+Meta,Llama 3 1,Performance Metrics,performance,1,50.5,1,273,True
+Meta,Llama 3 1,Training Data Documentation,training,1,50.5,1,273,True
+Meta,Llama 3 1,Model Limitations,limitations,0,0.0,0,0,False
+Meta,Llama 3 1,Capabilities & Use Cases,capabilities,1,50.5,1,273,True
+Meta,Llama 3 1,Usage Policies,usage,0,0.0,0,0,False
+Meta,Llama 3 1,Ethical Considerations,ethics,0,0.0,0,0,False
+Meta,Llama 3 1,Privacy & Data Protection,privacy,0,0.0,0,0,False
+Openai,Gpt 4,Safety & Risk Assessment,safety,1,88.0,256,899,True
+Openai,Gpt 4,Performance Metrics,performance,1,88.0,256,899,True
+Openai,Gpt 4,Training Data Documentation,training,1,88.0,256,899,True
+Openai,Gpt 4,Model Limitations,limitations,1,88.0,256,899,True
+Openai,Gpt 4,Capabilities & Use Cases,capabilities,0,0.0,0,0,False
+Openai,Gpt 4,Usage Policies,usage,0,0.0,0,0,False
+Openai,Gpt 4,Ethical Considerations,ethics,0,0.0,0,0,False
+Openai,Gpt 4,Privacy & Data Protection,privacy,0,0.0,0,0,False
+Openai,Gpt 4O,Safety & Risk Assessment,safety,1,89.6,227,978,True
+Openai,Gpt 4O,Performance Metrics,performance,1,89.4,121,970,True
+Openai,Gpt 4O,Training Data Documentation,training,0,0.0,0,0,False
+Openai,Gpt 4O,Model Limitations,limitations,0,0.0,0,0,False
+Openai,Gpt 4O,Capabilities & Use Cases,capabilities,1,89.6,227,978,True
+Openai,Gpt 4O,Usage Policies,usage,0,0.0,0,0,False
+Openai,Gpt 4O,Ethical Considerations,ethics,0,0.0,0,0,False
+Openai,Gpt 4O,Privacy & Data Protection,privacy,0,0.0,0,0,False
+Openai,Gpt 5,Safety & Risk Assessment,safety,1,91.1,34,1052,True
+Openai,Gpt 5,Performance Metrics,performance,1,91.1,34,1052,True
+Openai,Gpt 5,Training Data Documentation,training,0,0.0,0,0,False
+Openai,Gpt 5,Model Limitations,limitations,0,0.0,0,0,False
+Openai,Gpt 5,Capabilities & Use Cases,capabilities,1,91.1,34,1052,True
+Openai,Gpt 5,Usage Policies,usage,0,0.0,0,0,False
+Openai,Gpt 5,Ethical Considerations,ethics,0,0.0,0,0,False
+Openai,Gpt 5,Privacy & Data Protection,privacy,0,0.0,0,0,False
+Openai,O1,Safety & Risk Assessment,safety,1,89.2,181,961,True
+Openai,O1,Performance Metrics,performance,1,89.2,181,961,True
+Openai,O1,Training Data Documentation,training,0,0.0,0,0,False
+Openai,O1,Model Limitations,limitations,0,0.0,0,0,False
+Openai,O1,Capabilities & Use Cases,capabilities,1,89.2,181,961,True
+Openai,O1,Usage Policies,usage,0,0.0,0,0,False
+Openai,O1,Ethical Considerations,ethics,0,0.0,0,0,False
+Openai,O1,Privacy & Data Protection,privacy,0,0.0,0,0,False

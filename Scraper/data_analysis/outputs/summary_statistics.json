@@ -1,0 +1,58 @@
+{
+  "analysis_date": "2025-11-23T13:18:48.087725",
+  "memo_statistics": {
+    "total_models": 7,
+    "overall_compliance": 41.07142857142857,
+    "vague_percentage": 58.92857142857143,
+    "strongest_category": "Performance Metrics",
+    "strongest_score": 100.0,
+    "weakest_category": "Ethical Considerations",
+    "weakest_score": 0.0,
+    "best_model": "Gpt 4",
+    "worst_model": "Claude 4"
+  },
+  "raw_counts": {
+    "total_chunks": 742,
+    "total_companies": 4,
+    "total_models": 7,
+    "total_assessments": 56
+  },
+  "compliance_metrics": {
+    "overall_rate": 41.07142857142857,
+    "vague_percentage": 58.92857142857143,
+    "below_70_count": 37,
+    "below_50_count": 33
+  },
+  "category_performance": {
+    "Capabilities & Use Cases": 85.71428571428571,
+    "Ethical Considerations": 0.0,
+    "Model Limitations": 14.285714285714285,
+    "Performance Metrics": 100.0,
+    "Privacy & Data Protection": 0.0,
+    "Safety & Risk Assessment": 71.42857142857143,
+    "Training Data Documentation": 42.857142857142854,
+    "Usage Policies": 14.285714285714285
+  },
+  "model_performance": {
+    "Claude 4": 37.5,
+    "Gemini 1 5 Pro": 37.5,
+    "Gpt 4": 50.0,
+    "Gpt 4O": 37.5,
+    "Gpt 5": 37.5,
+    "Llama 3 1": 50.0,
+    "O1": 37.5
+  },
+  "statistical_tests": {
+    "chi_square": {
+      "statistic": 32.38998682476944,
+      "p_value": 3.438186360089051e-05,
+      "dof": 7,
+      "significant": true
+    },
+    "t_test": {
+      "statistic": 31.864595061787753,
+      "p_value": 1.0788016074077378e-36,
+      "cohens_d": 7.812877009401331
+    }
+  }
+}

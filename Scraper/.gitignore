@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+*.code-workspace
+
+# Build outputs
+dist/
+build/
+.cache/
+out/
+
+# Transformers cache (AI models)
+.cache/
+huggingface/
+*.onnx
+*.onnx_data
+
+# Puppeteer
+.local-chromium/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+
+# Test files (if you create them later)
+test-*.js
+scrape-test-*.js
+inspect-*.js
+analyze-*.js
+debug-*.js
+
+# Backup files
+*.old.md
+*.backup.js
+README.old.md
+
+# Data files (optional - remove if you want to track them)
+# jobs/urls.json
+# data/
+# output/
