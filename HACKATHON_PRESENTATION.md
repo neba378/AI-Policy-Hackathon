@@ -1,4 +1,5 @@
 # Policy Sentinel
+
 **Evidence-Based AI Compliance Auditing at Scale**
 
 ---
@@ -22,6 +23,7 @@ Unscalable for federal oversight
 ### Real-World Impact
 
 **Example: GPT-4 System Card**
+
 - 50+ pages of prose
 - No machine-readable format
 - Privacy policies: **0% verifiable**
@@ -39,6 +41,7 @@ Models claim compliance but lack technical evidence
 ### We Analyzed 742 Documentation Chunks
 
 **7 Leading AI Models:**
+
 - GPT-4, Claude 3.5, Gemini 1.5, Llama 3.1
 - Meta, OpenAI, Anthropic, Google
 
@@ -49,15 +52,15 @@ Performance, Safety, Privacy, Ethics, Limitations, Usage Policies
 
 ### Category-by-Category Breakdown
 
-| Policy Category                  | Pass Rate | Confidence |
-| -------------------------------- | --------- | ---------- |
-| Performance Metrics              | 100%      | 89.6% ✓    |
-| Capabilities & Use Cases         | 86%       | 87.8% ✓    |
-| Safety & Risk Assessment         | 71%       | 84.3% ✓    |
-| Training Data Documentation      | 43%       | 36.2% ⚠    |
-| **Privacy & Data Protection**    | **0%**    | **0.0% ✗** |
-| **Ethical Considerations**       | **0%**    | **0.0% ✗** |
-| Limitations                      | 14%       | 7.1% ✗     |
+| Policy Category               | Pass Rate | Confidence |
+| ----------------------------- | --------- | ---------- |
+| Performance Metrics           | 100%      | 89.6% ✓    |
+| Capabilities & Use Cases      | 86%       | 87.8% ✓    |
+| Safety & Risk Assessment      | 71%       | 84.3% ✓    |
+| Training Data Documentation   | 43%       | 36.2% ⚠    |
+| **Privacy & Data Protection** | **0%**    | **0.0% ✗** |
+| **Ethical Considerations**    | **0%**    | **0.0% ✗** |
+| Limitations                   | 14%       | 7.1% ✗     |
 
 **Statistical Proof:** Chi-square p-value: 0.000034 (NOT RANDOM)
 
@@ -127,17 +130,20 @@ STEP 1: INGEST          STEP 2: VERIFY          STEP 3: CERTIFY
 
 ### 90-Day Pilot Timeline
 
-**Days 1-30: PILOT**  
+**Days 1-30: PILOT**
+
 - Partner with 5 volunteer companies (OpenAI, Anthropic, Meta, Google, Microsoft)
 - Evaluate current documentation against Sentinel Standard
 - Refine confidence scoring rubric
 
-**Days 31-60: RULEMAKING**  
+**Days 31-60: RULEMAKING**
+
 - NPRM (Notice of Proposed Rulemaking)
 - FAR clause update for federal procurement
 - Public comment period
 
-**Days 61-90: DEPLOYMENT**  
+**Days 61-90: DEPLOYMENT**
+
 - Final rule published
 - NIST adopts Sentinel Standard
 - Vendors begin compliance submissions
@@ -204,7 +210,8 @@ Current AI documentation = 60-page PDFs, unstructured narratives
 
 **Timeline:** 90-day pilot with 5 major AI companies
 
-**Impact:**  
+**Impact:**
+
 - Reduce NIST review workload by 600x
 - Enable apples-to-apples model comparison
 - Establish transparent compliance expectations
@@ -231,15 +238,19 @@ Making AI compliance auditing 600x faster
 ## 🎤 Presentation Talking Points
 
 ### Opening (30 seconds)
+
 "Judges, NIST receives 100+ new AI models per year but lacks infrastructure to verify compliance claims. We built Policy Sentinel and discovered **58.9% of documentation is too vague to audit**. Let me show you the data."
 
 ### Data Walkthrough (60 seconds)
+
 "We analyzed 742 documentation chunks from GPT-4, Claude, Llama. This heatmap reveals the problem: even best-in-class models fail 4+ critical categories. Notice the **RED blocks in Privacy and Ethics—ZERO models have adequate docs**."
 
 ### Solution Pitch (60 seconds)
+
 "Here's our solution: the Sentinel Standard. Think **'nutrition label' for AI**. Vendors submit docs, our system assigns confidence scores, NIST gets a dashboard instead of 60-page PDFs. It's **600x faster and open-source**."
 
 ### Closing (30 seconds)
+
 "We have a 90-day pilot plan. The code is live. The data is peer-reviewed. We urge NIST to adopt this infrastructure immediately. **You can't regulate what you can't measure—but now we can measure it.**"
 
 ---
@@ -266,6 +277,7 @@ Making AI compliance auditing 600x faster
 ✅ **MEMORABLE:** "Nutrition label for AI" sticks in judges' minds
 
 **What Judges Will Remember:**
+
 - "58.9% of AI documentation is too vague to audit"
 - "Privacy & Ethics = 0% across ALL models"
 - "600x faster than manual review"
