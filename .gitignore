@@ -26,6 +26,11 @@ ENV/
 env/
 .venv
 
+# Node
+node_modules/
+package-lock.json
+bun.lockb
+
 # IDEs
 .vscode/
 .idea/
